@@ -1515,10 +1515,10 @@
             <para>This section describes the versions that are
                 supported for the Cloud Databases API.</para>
             <wadl:resources xmlns:wadl="http://wadl.dev.java.net/2009/02">
-                <wadl:resource href="dbaas.wadl#versions">
+                <wadl:resource href="../../../xsd/dbaas.wadl#versions">
                     <wadl:method href="getVersions"/>
                 </wadl:resource>
-                <wadl:resource href="dbaas.wadl#version">
+                <wadl:resource href="../../../xsd/dbaas.wadl#version">
                     <wadl:method href="getVersionInfo" />
                 </wadl:resource>
             </wadl:resources>               
@@ -1528,18 +1528,18 @@
             <title>Database Instances</title>
             <para>This section describes the operations that are supported for database instances.</para>
             <wadl:resources xmlns:wadl="http://wadl.dev.java.net/2009/02">
-                <wadl:resource href="dbaas.wadl#instances" >
+                <wadl:resource href="../../../xsd/dbaas.wadl#instances" >
                     <wadl:method href="createInstance"/>
                     <wadl:method href="getInstance"/>
                 </wadl:resource>
-                <wadl:resource href="dbaas.wadl#instanceDetails">
+                <wadl:resource href="../../../xsd/dbaas.wadl#instanceDetails">
                     <wadl:method href="getInstanceDetails"/>
                 </wadl:resource>
-                <wadl:resource href="dbaas.wadl#instanceId">
+                <wadl:resource href="../../../xsd/dbaas.wadl#instanceId">
                     <wadl:method href="getInstanceById"/>
                     <wadl:method href="deleteInstance"/>  
                 </wadl:resource>
-                <wadl:resource href="dbaas.wadl#root">
+                <wadl:resource href="../../../xsd/dbaas.wadl#root">
                     <wadl:method href="createRoot"/>
                     <wadl:method href="isRootEnabled"/>
                 </wadl:resource>
@@ -1550,7 +1550,7 @@
             <title>Database Instance Actions</title>
             <para>This section describes the actions that are supported for database instances.</para>
             <wadl:resources xmlns:wadl="http://wadl.dev.java.net/2009/02">
-                <wadl:resource href="dbaas.wadl#instanceAction" >
+                <wadl:resource href="../../../xsd/dbaas.wadl#instanceAction" >
                     <wadl:method href="restartInstance"/>
                     <wadl:method href="resizeInstance"/>
                     <wadl:method href="resizeVolume"/>
@@ -1564,11 +1564,11 @@
                 supported for databases.</para>
             <wadl:resources
                 xmlns:wadl="http://wadl.dev.java.net/2009/02">
-                <wadl:resource href="dbaas.wadl#databases">
+                <wadl:resource href="../../../xsd/dbaas.wadl#databases">
                     <wadl:method href="createDatabase"/>
                     <wadl:method href="getDatabases"/>
                 </wadl:resource>
-                <wadl:resource href="dbaas.wadl#databaseName">
+                <wadl:resource href="../../../xsd/dbaas.wadl#databaseName">
                     <wadl:method href="deleteDatabase"/>
                 </wadl:resource>
             </wadl:resources>
@@ -1580,11 +1580,11 @@
                 supported for managing database users.</para>
             <wadl:resources
                 xmlns:wadl="http://wadl.dev.java.net/2009/02">
-                <wadl:resource href="dbaas.wadl#users">
+                <wadl:resource href="../../../xsd/dbaas.wadl#users">
                     <wadl:method href="createUser"/>
                     <wadl:method href="getUsers"/>
                 </wadl:resource>
-                <wadl:resource href="dbaas.wadl#userId">
+                <wadl:resource href="../../../xsd/dbaas.wadl#userId">
                     <wadl:method href="deleteUser"/>
                 </wadl:resource>
             </wadl:resources>
@@ -1596,13 +1596,13 @@
                 supported for flavors.</para>
             <wadl:resources
                 xmlns:wadl="http://wadl.dev.java.net/2009/02">
-                <wadl:resource href="dbaas.wadl#flavors">
+                <wadl:resource href="../../../xsd/dbaas.wadl#flavors">
                     <wadl:method href="getFlavors"/>
                 </wadl:resource>
-                <wadl:resource href="dbaas.wadl#flavorDetails">
+                <wadl:resource href="../../../xsd/dbaas.wadl#flavorDetails">
                     <wadl:method href="getFlavorDetails"/>
                 </wadl:resource>
-                <wadl:resource href="dbaas.wadl#flavorId">
+                <wadl:resource href="../../../xsd/dbaas.wadl#flavorId">
                     <wadl:method href="getFlavorById"/>
                 </wadl:resource>
             </wadl:resources>
